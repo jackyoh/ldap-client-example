@@ -47,3 +47,11 @@ Linux command line connect to LDAP command for test
 ```
 # ldapsearch -x -D "uid=user10,ou=Users,dc=openstack,dc=org" -H ldap://192.168.1.13 -W -b "ou=Users,dc=openstack,dc=org" -s Sub "uid=user10"
 ```
+
+Create ou configuration file
+```
+cn: ou=Group,dc=openstack,dc=org
+ou: Group
+objectClass: top
+objectclass: organizationalunit
+```
