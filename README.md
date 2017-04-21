@@ -37,7 +37,11 @@ memberuid: user10
 objectclass: posixGroup
 objectclass: top
 ```
-ldapadd -H ldap://localhost -x -D cn=admin,dc=openstack,dc=org -w password -c -f group4.ldif
+
+command
+```
+ldapadd -H ldap://localhost -x -D cn=admin,dc=openstack,dc=org -w password -c -f group.ldif
+```
 
 Linux command line connect to LDAP command for test
 ```
