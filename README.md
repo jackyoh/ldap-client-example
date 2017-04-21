@@ -5,6 +5,11 @@ $ docker run -d -p 389:389 --name ldap -t larrycai/openldap
 $ docker exec -it ldap baseh
 ```
 
+Generate password command
+```
+$ slappasswd
+```
+
 Add user to LDAP Server
 user10.ldif
 ```
