@@ -2,7 +2,7 @@ Run LDAP Server on Docker container for test
 ```
 $ docker pull larrycai/openldap
 $ docker run -d -p 389:389 --name ldap -t larrycai/openldap
-$ docker exec -it ldap baseh
+$ docker exec -it ldap bash
 ```
 
 Generate password command
