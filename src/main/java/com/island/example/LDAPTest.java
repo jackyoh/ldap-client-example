@@ -12,9 +12,9 @@ import javax.naming.directory.SearchResult;
 
 public class LDAPTest {
     public static void main(String[] args) throws NamingException {
-    	  String ldapURL = "ldap://192.168.1.13";
-        String dn = "uid=user10,ou=Users,dc=openstack,dc=org";
-        String bindUser = "user10";
+    	  String ldapURL = "ldap://192.168.1.223";
+        String dn = "uid=user2,ou=Users,dc=openstack,dc=org";
+        String bindUser = "user2";
         String bindPassword = "123456";
         String searchBase = "ou=Users,dc=openstack,dc=org";
         String searchFilter = "uid=" + bindUser;
